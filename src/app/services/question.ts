@@ -599,6 +599,19 @@ export class Question {
       ],
     },
     {
+      id: 'nodejs-backend-operations',
+      icon: 'ti-server',
+      title: 'Backend Operations & Debugging',
+      color: '#0F766E',
+      bg: '#CCFBF1',
+      questions: [
+        'An API that previously responded quickly is now taking around 30 seconds to complete. How would you debug the issue and identify the root cause?',
+        'Walk me through your process of taking a new feature from requirement gathering to production deployment.',
+        'Suppose you need to update three MongoDB collections as part of a single business operation. If the third update fails, how would you ensure that the first two updates are rolled back?',
+        'What is a transaction in MongoDB, and when would you use it?',
+      ],
+    },
+    {
       id: 'nodejs-caching',
       icon: 'ti-database-import',
       title: 'Caching & Redis',
