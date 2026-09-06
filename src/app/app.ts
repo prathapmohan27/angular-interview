@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { Questions } from '@components/questions';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [Questions],
-  template: `<app-questions />`,
+  imports: [RouterOutlet],
+  template: `<router-outlet />`,
   styles: [
     `
       :host {
@@ -14,5 +14,5 @@ import { Questions } from '@components/questions';
   ],
 })
 export class App {
-  protected readonly title = signal('prepHup');
+  protected readonly title = signal('prepHub');
 }
